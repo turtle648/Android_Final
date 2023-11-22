@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:label="운동 기록 홈"
+        android:background="#ff0033cc"
+        android:textColor="#ffffffff"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.myapplication.ui.Search.SearchFragment"
+        android:label="운동별 데이터 조회"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_Timer"
+        android:name="com.example.myapplication.ui.Timer.TimerFragment"
+        android:label="타이머"
+        tools:layout="@layout/fragment_timer" />
+</navigation>

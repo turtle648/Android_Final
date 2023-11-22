@@ -1,3 +1,45 @@
 <resources>
-    <string name="app_name">Android_Final</string>
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string-array name="body_parts_array">
+        <item>등</item>
+        <item>가슴</item>
+        <item>하체</item>
+        <item>어깨</item>
+        <item>팔</item>
+        <!-- 다른 부위들 추가 -->
+    </string-array>
+    <string-array name="exercises_array_back">
+        <item>렛풀다운</item>
+        <item>풀업</item>
+        <item>로우풀리</item>
+        <!-- 다른 운동들 추가 -->
+    </string-array>
+
+    <string-array name="exercises_array_chest">
+        <item>벤치프레스</item>
+        <item>딥스</item>
+        <item>인클라인 벤치프레스</item>
+        <!-- 다른 운동들 추가 -->
+    </string-array>
+
+    <string-array name="exercises_array_leg">
+        <item>스쿼트</item>
+        <item>레그프레스</item>
+        <!-- 다른 운동들 추가 -->
+    </string-array>
+
+    <string-array name="exercises_array_shoulder">
+        <item>밀리터리 프레스</item>
+        <item>사이드 레터럴 레이즈</item>
+        <!-- 다른 운동들 추가 -->
+    </string-array>
+
+    <string-array name="exercises_array_arm">
+        <item>암컬</item>
+        <item>바벨컬</item>
+        <!-- 다른 운동들 추가 -->
+    </string-array>
 </resources>
